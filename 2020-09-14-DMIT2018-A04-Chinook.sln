@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{DC381653-880D-4183-84F5-E2B52812B15F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChinookSystem", "ChinookSystem\ChinookSystem.csproj", "{79B7ADF0-77BC-4F70-B797-B32F48E0E845}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DC381653-880D-4183-84F5-E2B52812B15F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC381653-880D-4183-84F5-E2B52812B15F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC381653-880D-4183-84F5-E2B52812B15F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79B7ADF0-77BC-4F70-B797-B32F48E0E845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B7ADF0-77BC-4F70-B797-B32F48E0E845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B7ADF0-77BC-4F70-B797-B32F48E0E845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B7ADF0-77BC-4F70-B797-B32F48E0E845}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
