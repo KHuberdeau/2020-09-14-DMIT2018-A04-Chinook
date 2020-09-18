@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <h1>Drop-Down-List of Albums</h1>
     <asp:Label ID="Label1" runat="server" Text="Select Album"></asp:Label>
-    <asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="ObjectDataSource1" DataTextField="AlbumTitle" DataValueField="AlbumId">
+    <asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="ObjectDataSource1" DataTextField="AlbumTitle" DataValueField="AlbumId" AppendDataBoundItems="True">
         <asp:ListItem Value="0">Select...</asp:ListItem>
     </asp:DropDownList>
     <asp:Button ID="Button1" runat="server" Text="Select" OnClick="Button1_Click" />

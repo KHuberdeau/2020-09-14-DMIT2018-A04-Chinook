@@ -77,6 +77,11 @@
                                         style="color:black" runat="server">
                                    Drop down of Albums
                                 </a>
+                                <a class="dropdown-item"
+                                        href="~/SamplePages/P03_CGVofAlbums.aspx"
+                                        style="color:black" runat="server">
+                                   Grid view of Albums
+                                </a>
                             </div>
                          </li>
                          <li class="nav-item">
