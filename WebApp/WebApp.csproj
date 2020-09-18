@@ -188,6 +188,7 @@
     <Content Include="Account\Web.config" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="SamplePages\P01_DDLofArtists.aspx" />
+    <Content Include="SamplePages\P02_DDLofAlbums.aspx" />
     <Content Include="SamplePages\TestPage1.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -365,6 +366,13 @@
     </Compile>
     <Compile Include="SamplePages\P01_DDLofArtists.aspx.designer.cs">
       <DependentUpon>P01_DDLofArtists.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SamplePages\P02_DDLofAlbums.aspx.cs">
+      <DependentUpon>P02_DDLofAlbums.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SamplePages\P02_DDLofAlbums.aspx.designer.cs">
+      <DependentUpon>P02_DDLofAlbums.aspx</DependentUpon>
     </Compile>
     <Compile Include="SamplePages\TestPage1.aspx.cs">
       <DependentUpon>TestPage1.aspx</DependentUpon>
