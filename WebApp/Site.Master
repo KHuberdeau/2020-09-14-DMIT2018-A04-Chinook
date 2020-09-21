@@ -82,6 +82,11 @@
                                         style="color:black" runat="server">
                                    Grid view of Albums
                                 </a>
+                                <a class="dropdown-item"
+                                        href="~/SamplePages/P04_CGVofTracks.aspx"
+                                        style="color:black" runat="server">
+                                   Grid view of Tracks
+                                </a>
                             </div>
                          </li>
                          <li class="nav-item">
