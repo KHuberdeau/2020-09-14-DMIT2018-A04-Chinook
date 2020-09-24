@@ -83,6 +83,11 @@
                                    Grid view of Tracks
                                 </a>
                                 <a class="dropdown-item"
+                                        href="~/SamplePages/P05_DDLofArtistsToCGVofAlbumsbyArtistID.aspx"
+                                        style="color:black" runat="server">
+                                   Dropdown list of Artists to Grid view of Albums by ArtistID
+                                </a>
+                                <a class="dropdown-item"
                                         href="~/SamplePages/PTest.aspx"
                                         style="color:black" runat="server">
                                    Test Page of Artists
