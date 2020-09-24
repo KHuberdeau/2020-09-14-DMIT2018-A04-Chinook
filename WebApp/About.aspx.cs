@@ -13,5 +13,10 @@ namespace WebApp
         {
 
         }
+
+        protected void Page_PreRender(object sender, EventArgs e)
+        {
+            MessageUserControl.ShowInfo("This is a test of MessageUserControl");
+        }
     }
 }
