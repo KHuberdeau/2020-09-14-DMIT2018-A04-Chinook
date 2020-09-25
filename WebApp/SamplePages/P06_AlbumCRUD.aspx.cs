@@ -13,5 +13,14 @@ namespace WebApp.SamplePages
         {
 
         }
+
+        #region Error Handling
+        protected void CheckForException(object sender, ObjectDataSourceStatusEventArgs e)
+        {
+            MessageUserControl.HandleDataBoundException(e);
+        }
+
+        #endregion
     }
+
 }
