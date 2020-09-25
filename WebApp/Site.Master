@@ -88,6 +88,11 @@
                                    Dropdown list of Artists to Grid view of Albums by ArtistID
                                 </a>
                                 <a class="dropdown-item"
+                                        href="~/SamplePages/P06_AlbumCRUD.aspx"
+                                        style="color:black" runat="server">
+                                   CRUD of Albums
+                                </a>
+                                <a class="dropdown-item"
                                         href="~/SamplePages/PTest.aspx"
                                         style="color:black" runat="server">
                                    Test Page of Artists
