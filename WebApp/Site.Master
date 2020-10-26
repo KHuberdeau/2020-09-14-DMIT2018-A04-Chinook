@@ -98,6 +98,11 @@
                                    Repeater ODS
                                 </a>
                                 <a class="dropdown-item"
+                                        href="~/SamplePages/PlaylistManager.aspx"
+                                        style="color:black" runat="server">
+                                   PlayList Manager
+                                </a>
+                                <a class="dropdown-item"
                                         href="~/SamplePages/PTest.aspx"
                                         style="color:black" runat="server">
                                    Test Page of Artists
