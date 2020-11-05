@@ -13,7 +13,8 @@
     </asp:PlaceHolder>
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+    <%-- font awesome--%>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 </head>
 <body>
     <form runat="server">
@@ -106,6 +107,11 @@
                                         href="~/SamplePages/PTest.aspx"
                                         style="color:black" runat="server">
                                    Test Page of Artists
+                                </a>
+                                <a class="dropdown-item"
+                                        href="~/SamplePages/P08_OLTP_Demo.aspx"
+                                        style="color:black" runat="server">
+                                   OLTP Demo
                                 </a>
                             </div>
                          </li>

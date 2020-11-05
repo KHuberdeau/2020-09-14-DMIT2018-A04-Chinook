@@ -194,6 +194,7 @@
     <Content Include="SamplePages\P03_CGVofAlbums.aspx" />
     <Content Include="SamplePages\P05_DDLofArtistsToCGVofAlbumsbyArtistID.aspx" />
     <Content Include="SamplePages\P06_AlbumCRUD.aspx" />
+    <Content Include="SamplePages\P08_OLTP_Demo.aspx" />
     <Content Include="SamplePages\PlaylistManager.aspx" />
     <Content Include="SamplePages\PTest.aspx" />
     <Content Include="SamplePages\P04_CGVofTracks.aspx" />
@@ -502,6 +503,13 @@
     </Compile>
     <Compile Include="SamplePages\P06_AlbumCRUD.aspx.designer.cs">
       <DependentUpon>P06_AlbumCRUD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SamplePages\P08_OLTP_Demo.aspx.cs">
+      <DependentUpon>P08_OLTP_Demo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SamplePages\P08_OLTP_Demo.aspx.designer.cs">
+      <DependentUpon>P08_OLTP_Demo.aspx</DependentUpon>
     </Compile>
     <Compile Include="SamplePages\PlaylistManager.aspx.cs">
       <DependentUpon>PlaylistManager.aspx</DependentUpon>
